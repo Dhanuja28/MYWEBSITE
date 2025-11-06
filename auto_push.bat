@@ -7,5 +7,5 @@ git add .
 git commit -m "Auto update on %date% %time%"
 git push origin master
 echo Changes pushed successfully at %time%
-timeout /t 300 >nul
+timeout /t 60 >nul
 goto loop
