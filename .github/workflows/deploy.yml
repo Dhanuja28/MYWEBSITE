@@ -3,7 +3,7 @@ name: Deploy Website to GitHub Pages
 on:
   push:
     branches:
-      - Master  # Runs when you push to main branch
+      - master  # Runs when you push to main branch
 
 jobs:
   build-and-deploy:
